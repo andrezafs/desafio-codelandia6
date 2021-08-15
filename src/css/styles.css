@@ -21,6 +21,20 @@ h1 {
   color: #FFFFFF;
 }
 
+.buttons button {
+  padding: 1.5rem 2.7rem;
+  background: #0072D2;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 0.3rem;
+}
+.buttons button:hover {
+  background: #131318;
+}
+
 .poster-box {
   display: flex;
 }

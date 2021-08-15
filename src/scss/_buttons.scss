@@ -1,0 +1,17 @@
+@import 'colors';
+
+.buttons {
+    button {
+        padding: 1.5rem 2.7rem;
+        background: $button;
+        @include font-style (1.6rem,400 );
+        text-transform: uppercase;
+        color: $text;
+        border: 0;
+        border-radius: .3rem;
+
+        &:hover {
+            background: $button-trailer;
+        }
+    }
+}
