@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "B612", sans-serif;
+}
 
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=styles.css.map */
