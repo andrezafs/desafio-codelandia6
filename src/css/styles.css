@@ -15,4 +15,10 @@ h2 {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 9.6rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=styles.css.map */
