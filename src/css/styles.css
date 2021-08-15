@@ -21,6 +21,23 @@ h1 {
   color: #FFFFFF;
 }
 
+.poster-box {
+  display: flex;
+}
+.poster-box .descrition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.poster-box .descrition p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.poster-box .descrition .star {
+  display: flex;
+}
+
 .container {
   display: flex;
   flex-direction: column;

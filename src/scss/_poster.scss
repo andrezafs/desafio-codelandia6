@@ -1,0 +1,17 @@
+.poster-box {
+    display: flex;
+    
+    .descrition {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        p {
+            @include font-style (2rem, 400);
+            color: $text;
+        }
+        .star {
+            display: flex;
+        }
+    }
+}
