@@ -7,11 +7,13 @@
         @include font-style (1.6rem,400 );
         text-transform: uppercase;
         color: $text;
-        border: 0;
+        border: .1rem solid transparent;
         border-radius: .3rem;
 
         &:hover {
             background: $button-trailer;
+            border: .1rem solid $text;
+            cursor: pointer;
         }
     }
 }

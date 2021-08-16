@@ -28,11 +28,13 @@ h1 {
   font-weight: 400;
   text-transform: uppercase;
   color: #FFFFFF;
-  border: 0;
+  border: 0.1rem solid transparent;
   border-radius: 0.3rem;
 }
 .buttons button:hover {
   background: #131318;
+  border: 0.1rem solid #FFFFFF;
+  cursor: pointer;
 }
 
 .poster-box {
