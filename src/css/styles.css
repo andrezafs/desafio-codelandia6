@@ -37,8 +37,10 @@ h1 {
 
 .poster-box {
   display: flex;
+  width: 97.9rem;
 }
 .poster-box .descrition {
+  margin-left: 7.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,6 +52,7 @@ h1 {
 }
 .poster-box .descrition .star {
   display: flex;
+  justify-content: space-between;
 }
 
 .container {
