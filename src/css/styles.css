@@ -61,7 +61,6 @@
 
 @media (max-width: 900px) {
   .container {
-    height: 100%;
     display: flex;
     background: center;
   }
@@ -76,12 +75,14 @@
   }
 
   .poster-box {
-    width: 80%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
   .poster-box .descrition {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
     padding: 4rem 0;
   }
   .poster-box .star {
