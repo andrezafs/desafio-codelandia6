@@ -36,6 +36,9 @@ h1 {
   border: 0.1rem solid #FFFFFF;
   cursor: pointer;
 }
+.buttons #trailer {
+  margin-left: 2.1rem;
+}
 
 .poster-box {
   display: flex;
