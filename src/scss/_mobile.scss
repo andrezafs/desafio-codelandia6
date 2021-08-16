@@ -1,0 +1,34 @@
+@media (max-width:900px) {
+
+    .container {
+        height: 100%;
+        display: flex;
+        background: center;
+
+        .header {
+            h1 {
+                font-size: 7rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+          margin: 1rem 0;
+        }
+        
+    }
+    .poster-box {
+        width: 80%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .descrition {
+           padding: 4rem 0;
+        }
+        .star {
+            padding: 2rem 0;
+           flex-wrap: wrap;
+        }
+    }
+    
+}
