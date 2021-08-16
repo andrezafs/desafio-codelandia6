@@ -17,9 +17,23 @@
             @include font-style (2rem, 400);
             color: $text;
         }
+    
         .star {
             display: flex;
             justify-content: space-between;
+            @include font-style(2.4rem, 700);
+            color: $text;
+        
+             
+                p{
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-right: 1.45rem;
+                    }
+                }
+             
+            
         }
     }
 }

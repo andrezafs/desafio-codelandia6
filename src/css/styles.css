@@ -61,6 +61,16 @@ h1 {
 .poster-box .descrition .star {
   display: flex;
   justify-content: space-between;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.poster-box .descrition .star p {
+  display: flex;
+  align-items: center;
+}
+.poster-box .descrition .star p img {
+  margin-right: 1.45rem;
 }
 
 .container {
