@@ -7,7 +7,6 @@
 
 Para o desenvolvimento deste site foram utilizadas as seguintes tecnologias:
 - HTML
-- JS
 - SASS
 ## 💻 Projeto
 
