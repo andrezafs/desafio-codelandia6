@@ -9,14 +9,3 @@
     font-family: 'B612', sans-serif;
 }
 
-h2 {
-    @include font-style (2rem, 700);
-    color: $text;
-    text-shadow: 0 .4rem .4rem $shadow;
-    text-transform: uppercase;
-}
-
-h1 {
-    @include font-style (9.6rem, 400);
-    color: $text;
-}
