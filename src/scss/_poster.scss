@@ -1,7 +1,11 @@
 .poster-box {
     display: flex;
     width: 97.9rem;
-    
+    .poster {
+        img {
+            border-radius: .2rem;
+        }
+    }
     .descrition {
         margin-left: 7.4rem;
         display: flex;

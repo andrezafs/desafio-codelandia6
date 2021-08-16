@@ -44,6 +44,9 @@ h1 {
   display: flex;
   width: 97.9rem;
 }
+.poster-box .poster img {
+  border-radius: 0.2rem;
+}
 .poster-box .descrition {
   margin-left: 7.4rem;
   display: flex;
