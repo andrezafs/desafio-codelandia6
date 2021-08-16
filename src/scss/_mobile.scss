@@ -1,40 +1,35 @@
+
 @media (max-width:900px) {
-
-    .container {
-        display: flex;
-        background: center;
-
-        .header {
-            h1 {
-                font-size: 7rem;
-            }
-            h2 {
-                font-size: 1.6rem;
-            }
-          margin: 1rem 0;
-        }
-        
-    }
     .poster-box {
-       
-        flex-wrap: wrap;
+        padding: 1rem;
+        width: 100%;
         align-items: center;
         justify-content: center;
 
         .descrition {
-            display: flex;
-            flex-wrap: wrap;
-            width: 80%;
-           padding: 4rem 0;
+            p {
+
+                font-size: 1.4rem;
+            }
         }
         .star {
             padding: 2rem 0;
-           flex-wrap: wrap;
+            flex-wrap: wrap;
+            img {
+                margin: 1rem 0;
+            }
+            p {
+                font-size: 1.4rem;
+            }
         }
 
         .buttons {
-          
+            display:flex;
+    
+            button {
+                margin: .5rem 0;
+                padding: 1rem;
+            }
         }
     }
-    
 }

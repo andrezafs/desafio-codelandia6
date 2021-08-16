@@ -60,34 +60,31 @@
 }
 
 @media (max-width: 900px) {
-  .container {
-    display: flex;
-    background: center;
-  }
-  .container .header {
-    margin: 1rem 0;
-  }
-  .container .header h1 {
-    font-size: 7rem;
-  }
-  .container .header h2 {
-    font-size: 1.6rem;
-  }
-
   .poster-box {
-    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
-  .poster-box .descrition {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    padding: 4rem 0;
+  .poster-box .descrition p {
+    font-size: 1.4rem;
   }
   .poster-box .star {
     padding: 2rem 0;
     flex-wrap: wrap;
+  }
+  .poster-box .star img {
+    margin: 1rem 0;
+  }
+  .poster-box .star p {
+    font-size: 1.4rem;
+  }
+  .poster-box .buttons {
+    display: flex;
+  }
+  .poster-box .buttons button {
+    margin: 0.5rem 0;
+    padding: 1rem;
   }
 }
 .container {
