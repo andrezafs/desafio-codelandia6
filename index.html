@@ -1,45 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 6</title>
-    <link rel="stylesheet" href="src/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <meta name="description" content="Site semântico e responsivo sobre a série Loki">
+  <title>Desafio 6</title>
 </head>
+
 <body>
-    <div class="container">
-        
-        <div class="header">
-            <h2>Está disponível agora</h2>
-            <h1>Loki</h1>
+  <div class="container">
+    <header class="header">
+      <h2>Está disponível agora</h2>
+      <h1>Loki</h1>
+    </header>
+
+    <section class="poster-box">
+      <div class="poster">
+        <img src="src/img/capa.svg" alt="Capa da série Loki">
+      </div>
+
+      <div class="description">
+        <p>
+          Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu papel como o Deus do
+          Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”.
+        </p>
+
+        <div class="star">
+          <div class="runtime">
+            <img src="src/img/clock.svg" alt=""> 51min
+          </div>
+
+          <div>
+            <img src="src/img/start.svg" alt="">
+            <img src="src/img/start.svg" alt="">
+            <img src="src/img/start.svg" alt="">
+            <img src="src/img/start.svg" alt="">
+            <img src="src/img/star.svg" alt="">
+          </div>
+
+          <p>2021</p>
         </div>
-        <div class="poster-box">
-            <div class="poster">
-                <img src="src/img/capa.svg" alt="">
-            </div>
-            <div class="descrition">
-                <p>Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu papel como o Deus do Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”. </p>
-                <div class="star">
-                    <div class="temp">
-                     <p> <img src="src/img/clock.svg" alt=""> 51min</p>
-                       
-                    </div>
-                    <div>
-                        <img src="src/img/start.svg" alt="">
-                        <img src="src/img/start.svg" alt="">
-                        <img src="src/img/start.svg" alt="">
-                        <img src="src/img/start.svg" alt="">
-                        <img src="src/img/star.svg" alt="">
-                    </div>
-                    <p>2021</p>
-                </div>
-                <div class="buttons">
-                    <button id="play">Assistir agora</button>
-                    <button id="trailer">Trailer</button>
-                </div>
-            </div>
+
+        <div class="buttons-container">
+          <button class="play">Assistir agora</button>
+          <button class="trailer">Trailer</button>
         </div>
-    </div>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>

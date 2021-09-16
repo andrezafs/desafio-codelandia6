@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "sass --watch src/scss/styles.scss src/css/styles.css"
+    "start": "http-server --port 3000 -c-1",
+    "sass:watch": "sass --watch src/scss/styles.scss src/css/styles.css"
   },
-  "dependencies": {
-    "sass": "^1.37.5"
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "sass": "^1.41.0"
   }
 }

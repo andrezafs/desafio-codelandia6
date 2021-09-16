@@ -1,22 +1,26 @@
-@import 'colors';
+.buttons-container {
+  button {
+    @include font-style(1.6rem, 400);
+    padding: 1.5rem 2.7rem;
+    text-transform: uppercase;
+    color: $text;
+    background: $button;
+    border: 0.1rem solid transparent;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
 
-.buttons {
-    button {
-        padding: 1.5rem 2.7rem;
-        background: $button;
-        @include font-style (1.6rem,400 );
-        text-transform: uppercase;
-        color: $text;
-        border: .1rem solid transparent;
-        border-radius: .3rem;
+    & + button {
+      margin-left: 2.1rem;
+    }
 
-        &:hover {
-            background: $button-trailer;
-            border: .1rem solid $text;
-            cursor: pointer;
-        }
+    &:hover {
+      filter: brightness(1.2);
+      border-color: $text;
     }
-    #trailer {
-        margin-left: 2.1rem;
-    }
+  }
+
+  .trailer {
+    background: $button-trailer;
+  }
 }
