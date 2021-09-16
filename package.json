@@ -6,7 +6,8 @@
   "scripts": {
     "start": "sass --watch src/scss/styles.scss src/css/styles.css"
   },
-  "dependencies": {
-    "sass": "^1.37.5"
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "sass": "^1.41.0"
   }
 }
