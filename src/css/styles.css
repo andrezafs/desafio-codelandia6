@@ -1,121 +1,125 @@
-@import url("https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap");
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 62.5%;
   font-family: "B612", sans-serif;
+  font-size: 62.5%;
 }
 
-.buttons button {
-  padding: 1.5rem 2.7rem;
-  background: #0072D2;
+.buttons-container button {
   font-size: 1.6rem;
   font-weight: 400;
+  padding: 1.5rem 2.7rem;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
+  background: #0072d2;
   border: 0.1rem solid transparent;
   border-radius: 0.3rem;
-}
-.buttons button:hover {
-  background: #131318;
-  border: 0.1rem solid #FFFFFF;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
-.buttons #trailer {
+.buttons-container button + button {
   margin-left: 2.1rem;
+}
+.buttons-container button:hover {
+  filter: brightness(1.2);
+  border-color: #ffffff;
+}
+.buttons-container .trailer {
+  background: #131318;
 }
 
 .poster-box {
   display: flex;
-  width: 97.9rem;
+  max-width: 97.9rem;
 }
 .poster-box .poster img {
   border-radius: 0.2rem;
 }
-.poster-box .descrition {
-  margin-left: 7.4rem;
+.poster-box .description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 7.4rem;
 }
-.poster-box .descrition p {
+.poster-box .description p {
   font-size: 2rem;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.poster-box .descrition .star {
-  display: flex;
-  justify-content: space-between;
+.poster-box .description .star {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
 }
-.poster-box .descrition .star p {
+.poster-box .description .star .runtime {
   display: flex;
   align-items: center;
 }
-.poster-box .descrition .star p img {
+.poster-box .description .star .runtime img {
   margin-right: 1.45rem;
 }
 
-@media (max-width: 900px) {
-  .poster-box {
-    padding: 1rem;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .poster-box .descrition p {
-    font-size: 1.4rem;
-  }
-  .poster-box .star {
-    padding: 2rem 0;
-    flex-wrap: wrap;
-  }
-  .poster-box .star img {
-    margin: 1rem 0;
-  }
-  .poster-box .star p {
-    font-size: 1.4rem;
-  }
-  .poster-box .buttons {
-    display: flex;
-  }
-  .poster-box .buttons button {
-    margin: 0.5rem 0;
-    padding: 1rem;
-  }
-}
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bg.png");
+  padding: 1.6rem;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .header {
-  text-align: center;
   margin-bottom: 12.1rem;
+  text-align: center;
 }
 .header h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #FFFFFF;
   text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   text-transform: uppercase;
+  color: #ffffff;
 }
 .header h1 {
   font-size: 9.6rem;
   font-weight: 400;
-  color: #FFFFFF;
-  text-transform: uppercase;
   margin-top: 3.5rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+  .poster-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .poster-box .descrition {
+    margin: 2rem 0;
+  }
+  .poster-box .descrition p {
+    font-size: 1.4rem;
+  }
+  .poster-box .star {
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+  }
+  .poster-box .star img {
+    margin: 1rem 0;
+  }
+  .poster-box .buttons {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

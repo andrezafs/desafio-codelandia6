@@ -1,40 +1,37 @@
 .poster-box {
- 
+  display: flex;
+  max-width: 97.9rem;
+
+  .poster img {
+    border-radius: 0.2rem;
+  }
+
+  .description {
     display: flex;
-    width: 97.9rem;
-    .poster {
-        img {
-            border-radius: .2rem;
-           
-        }
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 7.4rem;
+
+    p {
+      @include font-style(2rem, 400);
+      color: $text;
     }
-    .descrition {
-       
-        margin-left: 7.4rem;
+
+    .star {
+      @include font-style(2.4rem, 700);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: $text;
+
+      .runtime {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
         
-        p {
-            @include font-style (2rem, 400);
-            color: $text;
+        img {
+          margin-right: 1.45rem;
         }
-    
-        .star {
-            display: flex;
-            justify-content: space-between;
-            @include font-style(2.4rem, 700);
-            color: $text;
-                p{
-                    display: flex;
-                    align-items: center;
-                    img {
-                        margin-right: 1.45rem;
-                      
-                    }
-                }
-             
-            
-        }
+      }
     }
+  }
 }
